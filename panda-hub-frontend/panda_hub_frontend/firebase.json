@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "panda-hub-project",
+          "appId": "1:26123631594:android:f9981f0596350da57d9093",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "panda-hub-project",
+          "appId": "1:26123631594:ios:5af24a1ea4bce5417d9093",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "panda-hub-project",
+          "appId": "1:26123631594:ios:5af24a1ea4bce5417d9093",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "panda-hub-project",
+          "configurations": {
+            "android": "1:26123631594:android:f9981f0596350da57d9093",
+            "ios": "1:26123631594:ios:5af24a1ea4bce5417d9093",
+            "macos": "1:26123631594:ios:5af24a1ea4bce5417d9093",
+            "web": "1:26123631594:web:adc1fc0c1edb384a7d9093",
+            "windows": "1:26123631594:web:895d492a023d25677d9093"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

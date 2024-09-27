@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "26123631594",
+    "project_id": "panda-hub-project",
+    "storage_bucket": "panda-hub-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26123631594:android:b811927468cbeb9f7d9093",
+        "android_client_info": {
+          "package_name": "com.example.panda_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvmfyYq8OrHVQjhqb1Urkd6vrH9XejcyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26123631594:android:f9981f0596350da57d9093",
+        "android_client_info": {
+          "package_name": "com.example.pandahub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvmfyYq8OrHVQjhqb1Urkd6vrH9XejcyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
