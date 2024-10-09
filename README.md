@@ -16,7 +16,6 @@ This project is a **Flutter-based event management application** that allows use
 - **Frontend**: Flutter (Dart)
 - **Backend**: Node.js with Firebase Cloud Functions
 - **Database**: Firestore (Firebase)
-- **State Management**: Provider (if applicable)
 
 ## 🚀 How It Works
 
@@ -25,4 +24,4 @@ This project is a **Flutter-based event management application** that allows use
 - **Event Deletion**: Users can delete events, with confirmation prompts to prevent accidental deletions.
 - **Event List View**: The app displays a list of all events, and users can tap on an event to view its details.
 - **Firebase Integration**: Events are stored in Firestore, and the app is integrated with Firebase Cloud Functions for backend logic.
-- **Firestore Security**: The app is secured using Firestore security rules, ensuring that only authenticated users can manage events (if applicable).
+- **Firestore Security**: The app is secured using Firestore security rules, ensuring that only authenticated users can manage events.
